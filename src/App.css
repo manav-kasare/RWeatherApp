@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather|Fira+Sans:ital,wght@1,900&display=swap");
+
+.App {
+  margin: 0 auto;
+  color: white;
+  background-color: #0f0f0f;
+}
+.rightSide {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 25%;
+  background-color: #0f0f0f;
+  border-left: 1px solid grey;
+}
+
+.leftSide {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 75%;
+  background-color: #0f0f0f;
+}
+
+.weather {
+  align-items: center;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+}
+
+.news {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
